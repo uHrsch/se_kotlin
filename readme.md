@@ -30,3 +30,17 @@ class HelloWorld {
 ```javascript
 console.log("Hello World!")
 ```
+# Einrichtung
+## IDE 
+Es gibt verschiedene mögliche IDEs zum schreiben von Kotlin Programmen. 
+Da Kotlin ebenfalls auf der JVM ausgeführt wird können die Java IDEs verwendet werden.
+- Eclipse
+- IntelliJ
+- Android Studio
+
+Zusätzlich können Texteditoren verwendet werden wie
+- Visual Studio Code
+- Vim
+## Build-Tools / Frameworks
+- Maven
+- Gradle
