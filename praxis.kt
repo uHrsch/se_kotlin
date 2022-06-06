@@ -1,11 +1,5 @@
 fun main(){
 
-    /*class car {
-        var brand =""
-        var model = ""
-        var year = 0
-    }
-    */
     class Car (parBrand: String, parModel: String, parYear: Int){
         var brand = parBrand
         var model = parModel
@@ -25,6 +19,11 @@ fun main(){
     val cars = arrayOf(car1, car2, car3)
 
     for (x in cars){
+    /*
+    for (Car x : cars){
+        ...
+    }
+     */
         if ((2022 - x.year) > 24){
             println(x.model + " is at least 25 years old")
         }
@@ -38,13 +37,35 @@ fun main(){
             "Tesla" -> println(x.model + " was made by an american company")
         }
 
+        /*
+        switch(x.brand){
+            case "Ford":
+                System.out.println(x.model + " was made by an american company");
+                break;
+            case "BMW":
+                System.out.println(x.model + " was made by an german company");
+                break;
+            case "Tesla":
+                System.out.println(x.model + " was made by an american company");
+                break;
+            default:
+                System.out.println(x.model + " was made by a company");
+        }
+
+        Seit Java 13
+        switch(x.brand){
+            "Ford" -> System.out.println(x.model + " was made by an american company");
+            "BMW" -> System.out.println(x.model + " was made by an german company");
+            "Tesla" -> System.out.println(x.model + " was made by an american company");
+        }
+        */
+
         if(x.brand == "BMW"){
             while(x.fuel > 0){
                 x.drive()
             }
         }
     }
-
 
 
 }

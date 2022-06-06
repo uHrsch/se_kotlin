@@ -3,7 +3,7 @@
 Kotlin ist eine plattformübergreifende, statische Programmiersprache, die in Bytecode für die JVM übersetzt wird, aber auch in JS-Quellcode oder Maschinencode umgewandelt werden kann. Kotlin lässt sich ausßerdem zur Entwicklung von Android und iOS-Apps verwenden. 
 Seit 2017 wird Kotlin offiziell von Google unterstützt und seit 2019 sogar bevorzugt. 
 Hauptsächlich wird die Sprache von JetBrains entwickelt. 
-## Wofür verwendet man Kotlin
+## Wofür verwendet man Kotlin?
 Da Kotlin die Möglichkeit bietet sowohl Android als auch iOS-Apps zu entwickeln lässt sich eine einmal erstellte App leicht für beide Systeme ausrollen. Da man weiter auch Webanwendungen mit Kotlin kann man einfach ein einheitliches Frontend entwickeln. Indem das Backend ebenfalls in Kotlin entwickelt werden kann ist es möglich das gesamte System in einer Programmiersprache abzubilden. 
 Durch die Kompatibilität mit Java besteht die Chance bestehende Java Anwendungen mit Kotlin zu erweitern oder zu überarbeiten. 
 ## Syntax
